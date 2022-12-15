@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Bucket</title>
+    <!--별은 전체 다 먹이겠다는 뜻-->
+    <style> 
+        @import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@400;500;600;700&display=swap');
+        *{
+            font-family: 'Unbounded', cursive; 
+        }
+        .title {
+            color: rgb(236, 166, 178);
+            background-color: rgba(19, 6, 4, 0.562);
+            font-size: 24px;
+            padding: 4px 14px;
+            border-radius: 8px;
+        }
+
+        .bg {
+            width: 480px;
+            background-image: url("https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/bg-grid.png");
+        }
+
+        .msg {
+            font-weight: bold;
+        }
+
+        .bucket {
+            width: 160px;
+            height: 160px;
+        }
+
+        .img1 {
+            background-image: url("https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/bucket-red.png");
+            background-size: cover;
+            background-position: center;
+        }
+
+        .img2 {
+            background-image: url("https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/bucket-lightred.png");
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/sparta-bucket2.css">
+</head>
+
+<body class="bg center">
+    <h1 class="title">2023 Plan</h1>
+    <p class="msg">2023 Get ALL</p>
+    <div class="row flex-row wrap">
+        <div class="bucket img1 center">HTML+CSS</div>
+        <div class="bucket img2 center">JAVA</div>
+        <div class="bucket img2 center">Javascript</div>
+        <div class="bucket img1 center">Springboot</div>
+        <div class="bucket img2 center">JQuery</div>
+        <div class="bucket img2 center">C++</div>
+    </div>
+
+</body>
+
+</html>
